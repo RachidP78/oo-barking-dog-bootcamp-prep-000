@@ -8,13 +8,9 @@ class Dog
     @name = new_name
   end
 
-  def breed
-    @breed
-  end
-
-  def breed=(new_breed)
-    @breed = new_breed
+  def bark
+    puts "woof!"
   end
 
 end
-# Your code goes here!
+
